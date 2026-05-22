@@ -35,3 +35,6 @@ require "autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+-- Disable copitlor tab
+vim.g.copilot_assume_mapped = true
